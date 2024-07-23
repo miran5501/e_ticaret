@@ -1,0 +1,55 @@
+﻿body {
+}
+.ana-kutu{
+    display:flex;
+    width:100%;
+    height:100vh;
+    background-color:rgb(250, 250, 250);
+
+}
+.Urunler-listesi {
+    width: 610px;
+    overflow: hidden; /* Ürünlerin taşmasını engeller */
+    white-space: nowrap; /* Ürünleri yan yana dizar */
+    background-color: rgb(240,240,240);
+    flex: 1; /* Bu div boş alanı kaplayacak */
+}
+.sol-div {
+    width: 200px; /* Sol div'in genişliği */
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+}
+
+.product {
+    display: inline-block; /* Ürünleri yan yana gösterir */
+    width: 23%;
+    height: 300px; /* Ürünlerin yüksekliği */
+    padding: 10px;
+    margin: 5px; /* Ürünler arasındaki boşluk */
+    background-color: white;
+    border-radius:10px;
+
+}
+
+.resim {
+    height: 150px;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.bilgiler {
+    height: 100px;
+    width: 120px;
+    text-align:center;
+}
+.sepete-ekle {
+    width: 120px;
+    height: 50px;
+}
+.small-text {
+    font-size: 12px; /* Yazı boyutunu 12 piksel olarak ayarlar */
+}

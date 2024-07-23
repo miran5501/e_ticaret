@@ -1,0 +1,32 @@
+1. Asp.Net projesi açtım core olmayan
+
+2.açılan sayfada sağda dosya ismi var ona tıklayıp yeni dedim yeni öğe dedim ordan Web Forms Ana Sayfası açtım bu sayfalarda ortak olan özellikleri barındıracak sayfa djangodaki base.html gibi
+
+3.o sayfaya navbar attım hepsinde olcağı için
+
+4.SQL de önce yeni database oluşturdum Database diagramsda tablolar oluşturup birbirine bağladım tablolar Urunler, Kullanicilar_Table, Yetki_Table, Sepet_Table bunların içine kullancağım bilgileri girdim sepetıd sepet_tutari falan diye
+
+5.Urunler diye sayfa oluşturdum 2. adım gibi oluşturuluyor Ana sayfa ile web formu seçtim ana sayfaya bağlama şeyi çıkıyor ana sayfayı seçip okeyledim btw isim yazma yeri seçtikten sonra aşağıda çıkıyor ordan yazıp sonra onayla burada labelları falan koydum tablo oluşturdum ürünler bu sayfada listlenecek
+
+6.SQL bağlamak için araçlar=>veri tabanı bağla sunucu adını oraya yapıştırdım
+
+7.sayfa açar gibi dosya açtım yeni öğe değil bu sefer yeni dosya diyorum classlar koydum ismini içine bir tane cs dosyası oluşturdum içinde SQL connection var SQL ile bağlantı yani oradaki kodun içine yeni bağladığım SQL databasesine tıkladığımda sağ altta özelliklerde bağlantı dizesi çıkıyor onu kopyaladım oraya yapıştırdım
+
+8.Urunler.aspx.cs dosyası yani backend kısmında Page_Load var sayfa yüklenirken olcak şeyler burda SQL kodlarını yazıyorum
+
+9.Hatalar aldım düzeltmeleri;
+9.1. SqlConnectionClass.cs içinde bağlantı dizesi kopyalayıp yapıştırmıştım uzun bir şey orada tırnak içinde en sonra trust server certificate=True var orada arada boşluk olmicak
+9.2. sa kullanıcısıyla girdiysem password gizli oluyor password yerine gerçek şifreyi yazarsam düzeliyor
+9.3. labellarda Eval("Urun_Fiyat") şuraya databasedeki o tablonun içindeki sütun ismini yazmam gerekiyor
+
+10.Urun satan kişinin ıd gösterimi yerine kullanıcı gösterimi için urunler.aspx.cs dosyasındaki SqlCommand yerini düzenledim ve Urunler.aspx de labelin oradaki Eval içini güncelledim
+
+11.SHA256 hashini cs dosyası olarak ekledim Sha256Converter intten aldım direkt algoritmayı
+
+12.textbox oluşturdum kullanıcı kaydı alırken kullanıcı kayıt sayfasından girişleri aldım bunun c# kısmında buton_click yerine kodları yazdım hata almamak için tırnak içine yazılan yazıyı tamamen doğru yazman gerek bir boşluk olsa bile hata verebilir (SQL kodu yazarken)
+
+13.kod çalışmıyor gibi duruyor ama sql refresh yapıp sekmeleri kapatıp açarsam geliyor
+
+14.Giriş yapma paneli yaptım kayıt olma ile aynı şey nerdeyse
+
+15.Sepet yaptım karışık baya int olan ürün fiyatını float yapıcam unutma onu**

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|c:\\users\\miran\\desktop\\e ticaret yedekler\\e_ticaret3\\e_ticaret\\e_ticaret\\e_ticaret\\musteri\\urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|solutionrelative:e_ticaret\\musteri\\urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\e_ticaret\\css\\urunlersayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|solutionrelative:e_ticaret\\css\\urunlersayfasi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\e_ticaret\\musteri\\musterianasayfa.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|solutionrelative:e_ticaret\\musteri\\musterianasayfa.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\e_ticaret\\musteri\\urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F066C6E-3B62-4EFE-B274-0CAD2DFB7B60}|E_ticaret\\E_ticaret.csproj|solutionrelative:e_ticaret\\musteri\\urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UrunlerSayfasi.css",
+              "DocumentMoniker": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\CSS\\UrunlerSayfasi.css",
+              "RelativeDocumentMoniker": "E_ticaret\\CSS\\UrunlerSayfasi.css",
+              "ToolTip": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\CSS\\UrunlerSayfasi.css",
+              "RelativeToolTip": "E_ticaret\\CSS\\UrunlerSayfasi.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-22T06:19:53.813Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Urunler.aspx",
+              "DocumentMoniker": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\Urunler.aspx",
+              "RelativeDocumentMoniker": "E_ticaret\\Musteri\\Urunler.aspx",
+              "ToolTip": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\Urunler.aspx",
+              "RelativeToolTip": "E_ticaret\\Musteri\\Urunler.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-17T06:45:53.356Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MusteriAnaSayfa.Master",
+              "DocumentMoniker": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\MusteriAnaSayfa.Master",
+              "RelativeDocumentMoniker": "E_ticaret\\Musteri\\MusteriAnaSayfa.Master",
+              "ToolTip": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\MusteriAnaSayfa.Master",
+              "RelativeToolTip": "E_ticaret\\Musteri\\MusteriAnaSayfa.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-22T10:34:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Urunler.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\Urunler.aspx.cs",
+              "RelativeDocumentMoniker": "E_ticaret\\Musteri\\Urunler.aspx.cs",
+              "ToolTip": "C:\\Users\\miran\\Desktop\\e ticaret yedekler\\E_ticaret3\\E_ticaret\\E_ticaret\\E_ticaret\\Musteri\\Urunler.aspx.cs",
+              "RelativeToolTip": "E_ticaret\\Musteri\\Urunler.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:58:00.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

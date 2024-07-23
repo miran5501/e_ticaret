@@ -1,0 +1,33 @@
+primary key=benzersiz girdi alıyor
+select sorgu yapmak için: SELECT (buraya tablodaki belli bir yerine adını yazabilirsin opsiyonel)* FROM "tablo adı"
+SELECT DISTINCT=benzersizleri getiriyor
+where kullanımı=SELECT * FROM satislar where Ulke="Fransa" => ülkesi sadece fransa olanları getirdi
+"Fransa" dan sonra or koyup başka veri de aratabiliyorum 2 sinden biri varsa o geliyor
+where yerine IN yazıp IN('France','Brazil') diye aratabilirim or gibi
+SELECT * FROM Satisler where Ucretler BETWEEN 50 AND 100=>50 ile 100 arası veriler
+SELECT * FROM Satislar WHERE Sevkadi LIKE 'a%'=> a ile başlayanlar çağrılır %a olsaydı sonu a ile bitenler olcaktı '_a%' 2. harfi a olanlar demek _ işareti rastgele karakterin yerine geçiyor
+SELECT NakliyeUcreti FROM Satislar ORDER BY NakliyeUcreti ASC
+nakliyeucreti en düşük olandan en yüksek olana sıraladı ASC yerine DESC yazarsam tam tersi sıralar aynısı isimler içinde geçerli harf sıralaması
+SevkUlkesi ASC,NakliyeUcreti DESC yazarsam önce ülkeyi küçükten büyüğe sıralar aynı ülke varsa bunun içindeki nakliye ücretini büyükten küçüğe sıralar
+SELECT SevkUlkesi, SUM(NakliyeUcreti) as "yayınlanacak kolonun ismi(rastgele verebilirsin)" FROM Satislar group by SevkUlkesi
+aynı ulkedeki nakliyeucretini topladı as den sonra yazdığın yazıdaki isim ile kolon oluşturup oraya koydu
+AVG=ortalama alır
+HAVIN=?
+CREATE TABLE Kullanicilar(
+ID int, Ad varchar(255), Soyad varchar(255));//tablo oluşturur
+DROP TABLE Kullanicilar//tablo silinir
+TRUNCATE TABLE Kullanicilar //tablonun içini boşaltır örn not uygulaması için
+INSERT INTO Kullanicilar (Name,Age)
+VALUES('Ahmet',30)//bunları tabloya atar
+UPDATE Kullanicilar SET Age='22' WHERE ID='2'//ID si 2 olanın yaşını 22 olarak güncelliyor Name='Ahmet' diyebilirdim
+DELETE FROM Kullanicilar WHERE ID=2 //2 numaralı ID satırı silinir ID=2 değilde Age=23 deseydik tüm 23 yaşları silecekti
+CSV dosyası atma=önce table oluştur aynı bilgilerin olduğu ama tablo içi boş olsun
+BULK INSERT HastaDatasi//HastaDatasi table ismi
+FROM 'CSV KONUMU'
+WITH(
+FIELDTERMINATOR=',',//satır içindeki bilgiler neyle ayrılıyor
+ROWTERMINATOR='\n',//satırlar neyle ayrılıyor \n direkt boşluk enter yani
+FIRSTROW=2,//2. satırdan başladığı
+TABLOCK//bilmiyorum
+)
+inner join=?
